@@ -6,8 +6,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import threading
 
 # ================= [ 설정 영역 ] =================
-CHZZK_CHANNEL_ID = 23bf77359d688742889c336e38c9e22b
-DISCORD_WEBHOOK_URL = https://discord.com/api/webhooks/1518268662874767562/YOQ9z0zCrLPlnsPBQKzlBvvs7XPUStc_9kXZ9ALDGwO_Eu8i6rQYGbO7srC4rsi-DAuP
+CHZZK_CHANNEL_ID = "23bf77359d688742889c336e38c9e22b"
+DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1518268662874767562/YOQ9z0zCrLPlnsPBQKzlBvvs7XPUStc_9kXZ9ALDGwO_Eu8i6rQYGbO7srC4rsi-DAuP"
 # =================================================
 
 # Render 무료 버전이 꺼지지 않도록 가짜 웹서버를 하나 열어둡니다.
